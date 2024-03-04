@@ -1,0 +1,46 @@
+
+
+.header{
+    background-color:rgb(255, 100, 0);
+    padding: 1px;
+    color:white;
+    text-align: center;
+}
+.main{
+    background-color:lightgrey;
+    padding:10px;
+}
+
+/*list items */
+.nav li {
+  display: inline-block;
+  font-size: 16px;
+  padding: 8px;
+}
+
+/* list column format */
+.row {
+    display:flex;
+}
+
+
+/* border around list items */
+li{
+    border-style:solid;
+    border-radius: 5px; /* specifies degree of corner rounding */
+    width:400px; /* extends border */
+    border-color:grey;
+
+}
+
+/* change radio button size */
+input[type=radio] {
+    width: 10%;
+    height: 1.3em;
+ /* can't figure out background radio button color either external or in-line */
+}
+
+input[type=checkbox]{
+    width: 10%;
+    height: 1.3em;
+}
